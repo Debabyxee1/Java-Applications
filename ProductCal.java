@@ -4,11 +4,12 @@ public class ProductCal{
     public static void main(String[] args){
 	    Scanner input = new Scanner(System.in);
 
-        int x,y,z result;
-        System.out.print("Enter the first integer: ");
-        x = input.nextInt()
-        y = input.nextInt()
-        z = input.nextInt()
-        result = x*y*z
-        System.out.printf(Product is %d%n",result);
-
+        System.out.print("Enter your number: ");
+		String num1 = input.nextLine();
+		
+		
+		System.out.print("Enter number: ");
+		String num2 = input.nextLine();
+		
+		System.out.print("Enter number: ");
+		short num3 = input.nextShort();

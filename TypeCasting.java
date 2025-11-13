@@ -3,6 +3,7 @@ public class TypeCasting {
 		//widening
 		double num = 10;
 		System.out.printf("The value is %f%n",num);
+		
 		//narrowing
 		double price = 32.89;
 		int result = (int) price;

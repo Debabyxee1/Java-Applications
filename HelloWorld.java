@@ -20,7 +20,8 @@ public class HelloWorld{
 		System.out.printf("My name is %s%n",name);
 		System.out.printf("Your balance is %c%.2f%n",symbol,deci);
 		System.out.printf("Is Java Fun? %b%n",isFun);
+		
+		//how to print the word Java in quotation marks
 		System.out.print("Do you enjoy learning \"Java\"");
 	}
-	
 }
